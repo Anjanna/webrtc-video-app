@@ -2,12 +2,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDlIf96zhqj7H93KDYEpa8NHTVAwhOcXWs",
-  authDomain: "webrtc-video-1911e.firebaseapp.com",
-  projectId: "webrtc-video-1911e",
-  storageBucket: "webrtc-video-1911e.appspot.com",
-  messagingSenderId: "311344909413",
-  appId: "1:311344909413:web:17b616c7aff8bff18b4a8c"
+  // your firebase config
 };
 
 if(!firebase.apps.length){
